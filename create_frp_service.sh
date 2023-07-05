@@ -51,7 +51,7 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 EOF
-            echo -e "创建frpc.service文件成功，文件路径：$frpc_service"
+            echo -e "创建frps.service文件成功，文件路径：$frps_service"
         else
             echo -e "没有找到frps程序的路径和frps.ini文件的路径"
 
